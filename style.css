@@ -1,0 +1,175 @@
+.css-Grid {
+    margin-top           : -250px;
+    grid-template-rows   : 350px 350px 350px;
+    grid-template-columns: 250px 250px 250px;
+
+    display : grid;
+    grid-gap: 10px;
+
+    grid-auto-flow  : 370px;
+    grid-auto-flow  : dense;
+    justify-content : center;
+    padding         : 290px 290px 290px;
+    background-color: brown;
+
+
+}
+
+
+body {
+    display        : flex;
+    justify-content: center;
+
+
+}
+
+.box1 {
+    background     : yellow;
+    border         : 1px solid grey;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+
+.box2 {
+    background     : green;
+    border         : 1px solid #555;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+
+.box3 {
+    background     : blue;
+    border         : 1px solid #555;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+a:hover {
+  color: hotpink;
+}
+
+a {
+    margin-top: 10px; /* change default value */
+    margin-left: 10px; /* change default value */
+    color: rgb(0, 140, 255);
+    text-decoration: none;
+    font-size: 25px;
+    font-family: sans-serif;
+    display: block;
+    
+}
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+button:hover{
+    color: yellow;
+}
+.box4 {
+    background     : orange;
+    border         : 1px solid #555;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+
+.box5 {
+    background     : greenyellow;
+    border         : 1px solid #555;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+
+#div {
+    background     : pink;
+    border         : 1px solid #555;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+
+.box7 {
+    background     : red;
+    border         : 1px solid #555;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+
+.box8 {
+    background     : olive;
+    border         : 1px solid #555;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+
+.box9 {
+    background     : beige;
+    border         : 1px solid #555;
+    display        : flex;
+    align-items    : center;
+    justify-content: center;
+    color          : #AAA;
+    box-shadow     : 3px 3px 3px grey;
+}
+
+h1 {
+    top     : -7px;
+    left    : 467px;
+    color   : yellow;
+    position: absolute;
+
+    align-items: center
+}
+
+img {
+    width          : 85%;
+    min-height     : 160px;
+    max-height     : 160px;
+    min-width      : 160x;
+    max-width      : 160px;
+    object-position: center top;
+    -o-object-fit  : cover;
+    object-fit     : cover;
+    overflow       : show;
+    border         : 5px solid #fff;
+    border-radius  : 4px;
+    box-shadow     : 5px 5px 5px grey;
+
+}
+
+img:hover {
+    position      : relative;
+    top           : 5px;
+    left          : 5px;
+    background    : #00cccc;
+    -webkit-filter: grayscale(10%);
+    filter        : grayscale(10%);
+}
+
